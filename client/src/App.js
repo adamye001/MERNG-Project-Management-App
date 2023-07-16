@@ -25,7 +25,7 @@ const cache = new InMemoryCache({
 });
 
 const client = new ApolloClient({
-	uri: 'http://localhost:8000/graphql',
+	uri: 'https://merng-project-management.onrender.com/graphql',
 	// we gonna use the cache variable we created above
 	cache,
 });
